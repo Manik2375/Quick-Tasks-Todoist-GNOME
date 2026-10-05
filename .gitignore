@@ -1,0 +1,22 @@
+# Compiled schemas (generated locally via glib-compile-schemas)
+schemas/gschemas.compiled
+
+# Packaged extension archives
+*.zip
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & scratch files
+*.log
+scratch/
