@@ -20,7 +20,7 @@ A GNOME Shell extension for managing Todoist tasks directly from the top panel.
 
 1. Clone the repository into your GNOME Shell extensions directory:
    ```bash
-   git clone https://github.com/<your-username>/quick-tasks-todoist.git ~/.local/share/gnome-shell/extensions/quick-tasks-todoist@manik2375.com
+   git clone https://github.com/Manik2375/Quick-Tasks-Todoist-GNOME.git ~/.local/share/gnome-shell/extensions/quick-tasks-todoist@manik2375.com
    ```
 
 2. Compile the schema:
