@@ -1,0 +1,15 @@
+{
+  "name": "Quick Tasks for Todoist",
+  "description": "Manage Todoist tasks and focus on current tasks directly from the GNOME top bar",
+  "uuid": "quick-tasks-todoist@manik2375.com",
+  "settings-schema": "org.gnome.shell.extensions.quick-tasks-todoist",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/manik2375/quick-tasks-todoist"
+}

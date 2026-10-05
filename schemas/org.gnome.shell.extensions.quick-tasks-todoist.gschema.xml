@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="quick-tasks-todoist">
+  <schema id="org.gnome.shell.extensions.quick-tasks-todoist" path="/org/gnome/shell/extensions/quick-tasks-todoist/">
+    <key name="api-token" type="s">
+      <default>''</default>
+      <summary>Todoist API Token</summary>
+      <description>Personal API token to authenticate with Todoist REST API v2</description>
+    </key>
+    <key name="sync-interval" type="i">
+      <default>5</default>
+      <summary>Sync Interval</summary>
+      <description>Background sync interval in minutes</description>
+    </key>
+    <key name="show-current-task-in-panel" type="b">
+      <default>true</default>
+      <summary>Show Current Task in Panel</summary>
+      <description>Whether to display the ongoing task title in the GNOME top bar</description>
+    </key>
+    <key name="max-panel-task-length" type="i">
+      <default>28</default>
+      <summary>Max Panel Task Length</summary>
+      <description>Maximum character length of the task title shown in the top bar</description>
+    </key>
+    <key name="current-task-id" type="s">
+      <default>''</default>
+      <summary>Current Task ID</summary>
+      <description>ID of the currently focused or ongoing task</description>
+    </key>
+    <key name="filter-query" type="s">
+      <default>'today | overdue'</default>
+      <summary>Filter Query</summary>
+      <description>Todoist query filter used to fetch tasks</description>
+    </key>
+    <key name="show-task-labels" type="b">
+      <default>true</default>
+      <summary>Show Task Labels</summary>
+      <description>Whether to show Todoist labels or tags attached to tasks</description>
+    </key>
+    <key name="show-task-project" type="b">
+      <default>true</default>
+      <summary>Show Project Name</summary>
+      <description>Whether to show the project badge on tasks (e.g. #Eat the frog)</description>
+    </key>
+    <key name="show-due-dates" type="b">
+      <default>true</default>
+      <summary>Show Due Dates</summary>
+      <description>Whether to show due dates on tasks</description>
+    </key>
+    <key name="show-overdue-days" type="b">
+      <default>true</default>
+      <summary>Show Overdue Days Count</summary>
+      <description>Whether to show the count of days a task is overdue</description>
+    </key>
+    <key name="task-sort-order" type="s">
+      <default>'newest-first'</default>
+      <summary>Task Sort Order</summary>
+      <description>Sort order for tasks: newest-first, todoist, priority</description>
+    </key>
+  </schema>
+</schemalist>

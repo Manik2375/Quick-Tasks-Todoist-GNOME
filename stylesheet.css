@@ -1,0 +1,305 @@
+/* Quick Tasks for Todoist GNOME Shell Stylesheet */
+
+/* =========================================================================
+ * Panel Indicator
+ * ========================================================================= */
+.quick-tasks-panel-box {
+    spacing: 6px;
+}
+
+.quick-tasks-panel-icon {
+    icon-size: 16px;
+}
+
+.quick-tasks-panel-label {
+    font-weight: 500;
+    font-size: 10pt;
+    margin-right: 2px;
+}
+
+.quick-tasks-panel-badge {
+    font-size: 8pt;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 9999px;
+    padding: 1px 6px;
+    margin-left: 2px;
+}
+
+/* =========================================================================
+ * Popup Menu Container
+ * ========================================================================= */
+.quick-tasks-menu-box {
+    min-width: 360px;
+    max-width: 440px;
+    padding: 6px 4px;
+    spacing: 8px;
+}
+
+.quick-tasks-section-title {
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 4px 6px 2px 6px;
+}
+
+/* =========================================================================
+ * Quick Add Task Input Box
+ * ========================================================================= */
+.quick-tasks-add-box {
+    margin: 2px 6px 6px 6px;
+    spacing: 6px;
+}
+
+.quick-tasks-entry {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #ffffff;
+    caret-color: #3584e4;
+    font-size: 9.5pt;
+}
+
+.quick-tasks-entry:focus {
+    border-color: #3584e4;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.quick-tasks-add-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #ffffff;
+}
+
+.quick-tasks-add-btn:hover {
+    background-color: #3584e4;
+}
+
+.quick-tasks-add-btn:active {
+    background-color: #1c71d8;
+}
+
+/* =========================================================================
+ * Scrollable Task List
+ * ========================================================================= */
+.quick-tasks-scroll-view {
+    max-height: 360px;
+    margin: 2px 4px;
+}
+
+.quick-tasks-list-container {
+    spacing: 4px;
+    padding: 2px;
+}
+
+/* Task Item Row */
+.quick-tasks-item-row {
+    border-radius: 8px;
+    padding: 8px 10px;
+    spacing: 10px;
+    transition-duration: 150ms;
+}
+
+.quick-tasks-item-row:hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.quick-tasks-item-row-active {
+    background-color: rgba(53, 132, 228, 0.14);
+    border: 1px solid rgba(53, 132, 228, 0.35);
+}
+
+.quick-tasks-item-row-active:hover {
+    background-color: rgba(53, 132, 228, 0.22);
+}
+
+/* Circular Checkbox Button */
+.quick-tasks-checkbox-btn {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    max-width: 18px;
+    max-height: 18px;
+    border-radius: 9999px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    padding: 0;
+    margin-right: 4px;
+    transition-duration: 150ms;
+}
+
+.quick-tasks-checkbox-btn:hover {
+    border-color: #3584e4;
+    background-color: rgba(53, 132, 228, 0.25);
+}
+
+.quick-tasks-checkbox-completed {
+    background-color: #249964 !important;
+    border-color: #249964 !important;
+}
+
+.quick-tasks-checkbox-icon {
+    color: #ffffff;
+    icon-size: 10px;
+}
+
+/* Priority specific border colors */
+.quick-tasks-priority-1 { /* Todoist p4 / normal */
+    border-color: rgba(255, 255, 255, 0.38);
+}
+
+.quick-tasks-priority-2 { /* Todoist p3 / blue */
+    border-color: #3584e4;
+}
+
+.quick-tasks-priority-3 { /* Todoist p2 / orange */
+    border-color: #f39c12;
+}
+
+.quick-tasks-priority-4 { /* Todoist p1 / urgent red */
+    border-color: #e0443e;
+}
+
+.quick-tasks-item-content-box {
+    spacing: 2px;
+}
+
+.quick-tasks-item-title {
+    font-size: 9.5pt;
+    color: #ffffff;
+}
+
+.quick-tasks-item-title-completed {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.38);
+}
+
+.quick-tasks-item-meta-box {
+    spacing: 8px;
+    margin-top: 2px;
+}
+
+.quick-tasks-item-due {
+    font-size: 7.5pt;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.quick-tasks-item-due-overdue {
+    color: #ff7b72;
+    font-weight: 600;
+}
+
+.quick-tasks-labels-box {
+    spacing: 4px;
+}
+
+.quick-tasks-label-chip {
+    font-size: 7pt;
+    font-weight: 600;
+    color: #99c1f1;
+    background-color: rgba(53, 132, 228, 0.18);
+    border-radius: 4px;
+    padding: 1px 5px;
+}
+
+.quick-tasks-project-chip {
+    font-size: 7pt;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 1px 6px;
+}
+
+.quick-tasks-item-pin-btn {
+    border-radius: 6px;
+    padding: 4px;
+    opacity: 0.45;
+}
+
+.quick-tasks-item-pin-btn:hover {
+    opacity: 1.0;
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.quick-tasks-item-pin-btn-active {
+    opacity: 1.0;
+    color: #78aeed;
+}
+
+/* Empty List State */
+.quick-tasks-empty-list-box {
+    padding: 24px 12px;
+    spacing: 8px;
+}
+
+.quick-tasks-empty-list-icon {
+    icon-size: 24px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* Not Connected State */
+.quick-tasks-empty-state {
+    padding: 24px 16px;
+    spacing: 10px;
+}
+
+.quick-tasks-empty-icon {
+    icon-size: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+}
+
+.quick-tasks-empty-title {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.quick-tasks-empty-subtitle {
+    font-size: 8.5pt;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+}
+
+.quick-tasks-action-btn {
+    background-color: #3584e4;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 9pt;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.quick-tasks-action-btn:hover {
+    background-color: #1c71d8;
+}
+
+/* =========================================================================
+ * Footer Section
+ * ========================================================================= */
+.quick-tasks-footer-box {
+    padding: 6px 8px 2px 8px;
+    spacing: 8px;
+}
+
+.quick-tasks-status-label {
+    font-size: 8pt;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.quick-tasks-icon-button {
+    border-radius: 6px;
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.quick-tasks-icon-button:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
